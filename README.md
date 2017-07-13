@@ -1,6 +1,15 @@
 This is a Vim plugin for providing filetype-dependent templates for new files, using a simple but effective mechanism.
 
 
+##Installation
+
+The easiest way to install the plugin is to install it as a bundle. For example, using Pathogen:
+
+Get and install pathogen.vim. You can skip this step if you already have it installed.
+cd ~/.vim/bundle
+git clone git://github.com/aperezdc/vim-template.git
+Bundle installs are known to work fine also when using Vundle. Other bundle managers are expected to work as well.
+
 Usage
 -----
 
@@ -20,6 +29,7 @@ Options
 The templates are only applied to new files, not existing empty files. If you want to setup templates so that they apply to empty files, add the following line to your `.vimrc`
 
     g:templates_empty_files = 1
+
 
 
 Creating templates
